@@ -24,7 +24,7 @@ export default function SignupPage() {
       password,
       options: {
         // Redirect back here after email confirmation
-        emailRedirectTo: `${window.location.origin}/app`,
+        emailRedirectTo: `${window.location.origin}/auth/callback`,
       },
     })
 
